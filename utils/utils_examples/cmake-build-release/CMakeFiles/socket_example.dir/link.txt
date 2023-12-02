@@ -1,0 +1,1 @@
+g++ -std=c++2a -Wall -Wextra -Werror -Wpedantic -O3 -DNDEBUG CMakeFiles/socket_example.dir/socket_example.cpp.o -o socket_example  liblibcommon.a -lpthread 

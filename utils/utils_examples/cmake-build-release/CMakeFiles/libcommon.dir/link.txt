@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibcommon.a CMakeFiles/libcommon.dir/lock_free_queue_example.cpp.o CMakeFiles/libcommon.dir/logging_example.cpp.o CMakeFiles/libcommon.dir/mem_pool_example.cpp.o CMakeFiles/libcommon.dir/socket_example.cpp.o CMakeFiles/libcommon.dir/tcp_server.cpp.o CMakeFiles/libcommon.dir/tcp_socket.cpp.o CMakeFiles/libcommon.dir/thread_example.cpp.o CMakeFiles/libcommon.dir/udp_server.cpp.o CMakeFiles/libcommon.dir/udp_socket.cpp.o
+/usr/bin/ranlib liblibcommon.a

@@ -1,0 +1,1 @@
+g++ -std=c++2a -Wall -Wextra -Werror -Wpedantic -O3 -DNDEBUG CMakeFiles/thread_example.dir/thread_example.cpp.o -o thread_example  liblibcommon.a -lpthread 

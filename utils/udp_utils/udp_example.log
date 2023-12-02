@@ -1,0 +1,37 @@
+Creating UDPServer of iface:lo port:12345
+socket_utils.h:103 createSocket() Fri Oct 13 18:02:05 2023 ip:127.0.0.1 iface:lo port:12345 is_udp:1 is_blocking: 0 is_listening: 0 ttl:0 SO_time:1
+Connecting UDPClient-[0] on ip:127.0.0.1 iface:lo port:12345
+socket_utils.h:103 createSocket() Fri Oct 13 18:02:05 2023 ip:127.0.0.1 iface:lo port:12345 is_udp:1 is_blocking: 0 is_listening: 0 ttl:0 SO_time:1
+Connecting UDPClient-[1] on ip:127.0.0.1 iface:lo port:12345
+socket_utils.h:103 createSocket() Fri Oct 13 18:02:05 2023 ip:127.0.0.1 iface:lo port:12345 is_udp:1 is_blocking: 0 is_listening: 0 ttl:0 SO_time:1
+Connecting UDPClient-[2] on ip:127.0.0.1 iface:lo port:12345
+socket_utils.h:103 createSocket() Fri Oct 13 18:02:05 2023 ip:127.0.0.1 iface:lo port:12345 is_udp:1 is_blocking: 0 is_listening: 0 ttl:0 SO_time:1
+Connecting UDPClient-[3] on ip:127.0.0.1 iface:lo port:12345
+socket_utils.h:103 createSocket() Fri Oct 13 18:02:05 2023 ip:127.0.0.1 iface:lo port:12345 is_udp:1 is_blocking: 0 is_listening: 0 ttl:0 SO_time:1
+Connecting UDPClient-[4] on ip:127.0.0.1 iface:lo port:12345
+socket_utils.h:103 createSocket() Fri Oct 13 18:02:05 2023 ip:127.0.0.1 iface:lo port:12345 is_udp:1 is_blocking: 0 is_listening: 0 ttl:0 SO_time:1
+Sending UDPClient-[0] CLIENT[0] : Sending 0
+Sending UDPClient-[1] CLIENT[1] : Sending 1
+Sending UDPClient-[2] CLIENT[2] : Sending 2
+Sending UDPClient-[3] CLIENT[3] : Sending 3
+Sending UDPClient-[4] CLIENT[4] : Sending 4
+Sending UDPClient-[0] CLIENT[0] : Sending 100
+Sending UDPClient-[1] CLIENT[1] : Sending 101
+Sending UDPClient-[2] CLIENT[2] : Sending 102
+Sending UDPClient-[3] CLIENT[3] : Sending 103
+Sending UDPClient-[4] CLIENT[4] : Sending 104
+Sending UDPClient-[0] CLIENT[0] : Sending 200
+Sending UDPClient-[1] CLIENT[1] : Sending 201
+Sending UDPClient-[2] CLIENT[2] : Sending 202
+Sending UDPClient-[3] CLIENT[3] : Sending 203
+Sending UDPClient-[4] CLIENT[4] : Sending 204
+Sending UDPClient-[0] CLIENT[0] : Sending 300
+Sending UDPClient-[1] CLIENT[1] : Sending 301
+Sending UDPClient-[2] CLIENT[2] : Sending 302
+Sending UDPClient-[3] CLIENT[3] : Sending 303
+Sending UDPClient-[4] CLIENT[4] : Sending 304
+Sending UDPClient-[0] CLIENT[0] : Sending 400
+Sending UDPClient-[1] CLIENT[1] : Sending 401
+Sending UDPClient-[2] CLIENT[2] : Sending 402
+Sending UDPClient-[3] CLIENT[3] : Sending 403
+Sending UDPClient-[4] CLIENT[4] : Sending 404
