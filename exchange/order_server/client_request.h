@@ -43,7 +43,22 @@ namespace Exchange {
                << "]"; 
             return ss.str();  
         }
-    }; 
+    };
+
+    struct OMClientRequest {
+        size_t seq_num_ = 0; 
+        MEClientRequest me_client_reqeust_; 
+        auto toString() const {
+            std::stringstream ss; 
+            ss << "OMClientRequest"
+               << " ["
+               << "seq:" << seq_num_
+               << " " << me_client_reqeust_.toString()
+               << "]";
+            return ss.str(); 
+        }
+    };
+
 #pragma pack(pop) // restores the alignment setting to the default (not tightly packed) -> we only want to pack the structures sent over the network, and not others 
     
     typedef LFQueue<MEClientRequest> ClientRequestLFQueue; 

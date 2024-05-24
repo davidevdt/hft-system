@@ -7,7 +7,9 @@ using namespace Common;
 namespace Exchange {
 #pragma pack(push,1)
     enum class MarketUpdateType : uint8_t {
-        INVALID = 0, ADD = 1, MODIFY = 2, CANCEL = 3, TRADE = 4 
+        INVALID = 0, CLEAR = 1, ADD = 2, MODIFY = 3, CANCEL = 4, TRADE = 5,
+        SNAPSHOT_START = 6, SNAPSHOT_END = 7 
+
     }; 
     inline std::string marketUpdateTypeToString(MarketUpdateType type) {
         switch (type) {
@@ -44,7 +46,24 @@ namespace Exchange {
             return ss.str(); 
         }
     };
+
+    struct MDPMarketUpdate {
+        size_t seq_num_ = 0; 
+        MEMarketUpdate me_market_update_; 
+
+        auto toString() const {
+            std::stringstream ss; 
+            ss << "MDPMarketUpdate"
+               << " ["
+               << " seq: " << seq_num_ 
+               << " " << me_market_update_.toString()
+               << " ]"; 
+            return ss.str(); 
+        }
+    };
+
 #pragma pack(pop)
 
     typedef LFQueue<Exchange::MEMarketUpdate> MEMarketUpdateLFQueue; 
+    typedef Common::LFQueue<Exchange::MDPMarketUpdate> MDPMarketUpdateLFQueue; 
 }
